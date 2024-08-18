@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '1e0e2f70844bb1fb5ccd601dfd2f412c3507122b',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '1e0e2f70844bb1fb5ccd601dfd2f412c3507122b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'kint-php/kint' => array(
+            'pretty_version' => '5.1.1',
+            'version' => '5.1.1.0',
+            'reference' => '8c5ec370c3382ceae0b88e91f9bbb00e6bb4f93b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../kint-php/kint',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'pocketarc/codeigniter' => array(
+            'pretty_version' => '3.2.1',
+            'version' => '3.2.1.0',
+            'reference' => 'd264c2d906626580c6644ab0083cce53dee58cea',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../pocketarc/codeigniter',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
